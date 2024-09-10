@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+    <style>
+        /* Gaya untuk membuat tampilan lebih menarik (opsional) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image:url(https://img.freepik.com/free-photo/anime-style-galaxy-background_23-2151133974.jpg);
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+            background-color: rgb(148, 24, 51);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Akun</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label for="confirm_password">Konfirmasi Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+    </fieldset>
+
+        <fieldset>
+        <legend>Data</legend>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="pria"> Pria
+        <br><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</br>
+        <label>Informasi yang Disukai:</label>
+        <input type="checkbox" name="hobi" value="olahraga"> Olahraga
+        <br><input type="checkbox" name="hobi" value="travelling"> Travelling</br>
+        <input type="checkbox" name="hobi" value="kesehatan"> Kesehatan
+        <label>Program Studi</label>
+        <select name="jurusan">
+            <option value="Jurusan">--Pilih salah satu--</option>
+            <option value="ilkom">Ilmu Komputer</option>
+            <option value="TI">Teknologi Informasi</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+    <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" rows="5" cols="20"> Alamat Disini</textarea>
+    
+    </fieldset>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+    <background color="Blue"></background>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pgWJM7uIoLVRtlWQ4K3PJCUxGg9ePuXPJA&s" width="70" class="HSRMAIN">
+</body>
+</html>
